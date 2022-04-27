@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top .5s ease;
+    z-index: 10;
+}
+#nav {
+    text-transform: uppercase;
+}
+.nav {
+    padding: 20;
+}
+#scaler {
+    background-color: none;
+    transform-origin: 0 0 0;
+    top: 0;
+    transition: top 1s ease;
+}
+main {
+    background-color: none;
+}
+footer {
+    background-color: none;
+}
+#svg {
+    position: fixed;
+    top: 0;
+}
+#path {
+    fill: none;
+    stroke: #fff;
+    stroke-width: .75vw;
+    stroke-linecap: round;
+    stroke-dasharray: 11431.4287109375;
+    stroke-dashoffset: 11431.4287109375;
+}
+
+
+article section {
+    opacity: 1;
+    transition: opacity, .5s ease;
+}

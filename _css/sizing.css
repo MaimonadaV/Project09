@@ -1,0 +1,17 @@
+
+#scaler {
+    width: 900;
+    height: 2400;
+}
+header {
+    height: 10vh;
+}
+.spacer {
+    height: 10vh;
+}
+article {
+    height: 400;
+}
+footer {
+    height: 300;
+}
